@@ -1,0 +1,27 @@
+{
+  "version": "0.1.0",
+  "name": "KaiNotes",
+  "description": "A no nonsense Note Taking app for KaiOS",
+  "launch_path": "/index.html",
+  "icons": {
+    "60": "/logo192.png",
+    "128": "/logo192.png"
+  },
+  "developer": {
+    "name": "Huzefa Arif",
+    "url": "https://huzaifa.dev"
+  },
+  "type": "privileged",
+  "permissions": {
+    "geolocation": {
+      "description": "Required for location tagging the user's notes"
+    },
+    "systemXHR": {
+      "description": "Required to get human readable location from coords"
+    }
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en-US"
+}
